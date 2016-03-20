@@ -1,4 +1,4 @@
 {{ define "test4" }}
-This is "test4" in partials/nocall.html.
+This is "test4" in partials/nocall.txt.
 .Title : {{ .Title }}
 {{ end }}
