@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+This is index.html.
+
+{{ define "test1" }}
+This is "test1" in index.html.
+.Title : {{ .Title }}
+{{ end }}
+{{ partial "content.html" . }}
+
+</html>

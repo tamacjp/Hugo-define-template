@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+This is _default/single.html.
+
+{{ define "test2" }}
+This is "test2" in _default/single.html.
+.Title : {{ .Title }}
+{{ end }}
+{{ partial "content.html" . }}
+
+</html>
